@@ -4,7 +4,7 @@ import java.util.Locale;
 
 public  final  class Main {
 
-    // public  final class PallindromeString {
+   
     public static void main(String[] args) {
         /*
 
@@ -74,15 +74,7 @@ public  final  class Main {
             reverse = reverse + input.charAt(i);
         }
         System.out.println("  reverse string " + reverse);
-         */
-        // steps to check  the   pallindrome
-        //1 input a string
-        //2  find the  reverse of the string
-        //3  check the original  and reverse stirng are same or nor
-        //4 if both  are equal  print pallindrom e les eprint   give string cis  not pallindrome
-
-
-        /*
+   
         String reverse = " ";
         Scanner sc = new Scanner(System.in);
                 String origianl = sc.nextLine();
@@ -96,17 +88,7 @@ public  final  class Main {
             System.out.println("  given string   is not eh pallindrome");
         }
 
-         */
-
-        // wap to check  give string is anagram  or not
-        //1  take    two string  as input
-        //2 convert  first string to character array
-        //3 take each character first string  and get the index   of that character in the  scond string
-        //4   if the  indxe is present   delete the  character   from   second stirng
-        // 5 repeate  the same step   for all  character  in   from  same  string
-//  6 finally then both  string are anagram else  check if the length of both string are 0
-
-        /*
+        *
           // method  one  for anagram
 
         String s1 = " ";
@@ -128,12 +110,6 @@ public  final  class Main {
               return   sb.length() ==0 ;
 
          */
-        /*
-        //method two  for anagram
-        // approach  1:  take tw   string   as input
-        //2  convert     teo  string   to character   array
-        //3  sort the   string array
-        // 4   comapre the   string array if they  are equal    they are anagram    otherwise they are   not
 
         String s1 = " abcd";
         String s2 = "dcaljnhjjoib ";
@@ -148,7 +124,7 @@ public  final  class Main {
         Arrays.sort(charstring2);
         Arrays.compare(charsring1, charstring2);
         /*
-        if (charsring1 == charstring2) {
+        if (charstring1 == charstring2) {
             System.out.println("The given string are anagram");
         } else {
             return false;
@@ -157,17 +133,8 @@ public  final  class Main {
         return Arrays.equals(charsring1, charstring2);
 
        // return   true;
-
-         */
-        //  Wap to print  number of words  vowels  and frequency  of each  character in the string
-        //  7 valid substring for a  given substring
         // approach  :  2 for loop   i  for  outer lop   for each  sub
-        // first  0  to 0  position  a. ab, abc
-        //      b,  bc,
-        //   c
-
-
-        /*
+      
          String str = "abc";
            for(int  i=0;i<str.length();i++)
            {
@@ -175,16 +142,12 @@ public  final  class Main {
                      System.out.println(  str.substring(i ,j ));
                  }
            }
-                    */
-
-        //    ***4  wap a jva program to check two strings are rotation of each other  or not
-        // there are  three conditions to chck the rotation
         //  same length
         //  contains the same character
         //  rotated around   of the character
 
 
-        /*
+        
         String s1 = " afh";
 
     }
@@ -198,7 +161,7 @@ public  final  class Main {
          }
 
 
-        /////////////////////////////////////////////////////////////////////////SELF ////////
+        /////////////////////////////////////////////////////////////////////////lf ////////
         String s1 = "hghv";
         System.out.println(rotationarray(s1,[]));
     }
@@ -213,11 +176,7 @@ public  final  class Main {
                 arr[arr.length -1] =  temp;
        }
 
-         */
-         /*
-        System.out.println(isRotation("abcd", "badc"));
-
-    }
+      
           public static  boolean  isRotation(  String str,  String rotatedString ){
          if(str == null ||  rotatedString  ==  null){
                return false;
@@ -231,8 +190,6 @@ public  final  class Main {
 
               }
 
-          */
-        // wap to print number of vowels and consonent in the string
         String s1 = " shdc";
         // System.out.println( vowelcons(s1,5));
         //countvowel(s1);
@@ -241,7 +198,6 @@ public  final  class Main {
 
      /*
 
-     // my  logic
 
     public static int vowelcons(String s1, int n) {
           int  vowel = 5 ;
@@ -274,7 +230,7 @@ public  final  class Main {
 
 
 
-      */
+     
     //   2nd   method'
      /*
      public static   void   countvowel(String    s1){
